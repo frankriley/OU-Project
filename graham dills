@@ -1,0 +1,15 @@
+JLabel lblChichenItzaMexico = new JLabel("Chichen Itza   ");   // name of label and label text 
+		lblChichenItzaMexico.addMouseListener(new MouseAdapter() {  //do not change
+			@Override
+			public void mouseClicked(MouseEvent arg0) {
+				northText.setText("The towering Temple of Kuklkan, also known as El Castillo, "   //text starts here // along with set.Text
+						+ "dominates this major Mayan site in the central Yucatan. Temples,"
+						+ " palaces, stages, markets, baths, "
+						+ "and ballcourts can also be found in the vast archeological complex. ");   // text ends here
+			}
+		});
+    
+    
+    // change j label name to name of location and text on j label   
+    // paste lines of text into quotes.
+    // change (northText.setText) to name of continent text ex (europe.setText
