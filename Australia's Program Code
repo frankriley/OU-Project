@@ -1,0 +1,45 @@
+JLabel lblSydneyNewSouthWales = new JLabel("Sydney, New South Wales   ");   // name of label and label text 
+		lblNewSouthWales.addMouseListener(new MouseAdapter() {  //do not change
+			@Override
+			public void mouseClicked(MouseEvent arg0) {
+				northText.setText("Sydney Opera House draws in millions of visitors each year "
+						+ "and is the heart of the city’s cultural life. There are many more"
+						+ " cultural opportunities in this vibrant city with its many"
+						+ " theatres, are galleries, museums, arts festivals and special events."
+						+ " More than 1,600 performances are held each year at the Opera House.");   // text ends here
+			}
+		});
+    
+    
+    JLabel lblMelbourneVictoria = new JLabel("Melbourne, Victoria   ");   // name of label and label text 
+		lblMelbourneVictoria.addMouseListener(new MouseAdapter() {  //do not change
+			@Override
+			public void mouseClicked(MouseEvent arg0) {
+				northText.setText("In some respects Melbourne’s culture is what sets it apart from other cities."
+						+ "Known as the sporting capital of the world, Melbourne plays host to a number of exciting"
+						+ "sporting events (Local and International) that can be enjoyed at one of the many first class venues."
+						+ "Melbourne is also a very multicultural city and because of this, offers an amazing array"
+						+ "of different cuisines from over the globe. To help plan your holiday to Melbourne, some"
+						+ "HomeAway staff members provide you with some helpful information and excellent insight"
+						+ "into the city's culture.");   // text ends here
+			}
+		});
+    
+    JLabel lblPerthWesternAustralia = new JLabel("Perth, Western Australia   ");   // name of label and label text 
+		lblMelbourneVictoria.addMouseListener(new MouseAdapter() {  //do not change
+			@Override
+			public void mouseClicked(MouseEvent arg0) {
+				northText.setText("It is true, Western Australia’s capital Perth, is one of"
+						+ "the most isolated cities in the world, with the closest Australian"
+						+ "city 2,200 kms away. We are in fact closer to Singapore than we"
+						+ "are to our own capital, Canberra. Western Australia is the world’s"
+						+ "second largest state, the largest being in Russia and if we were"
+						+ "a country, we’d be the 10th largest country in the world. Did you"
+						+ "know in 1933 we had a secession referendum to become a separate"
+						+ "country and the proposal won? We have a Mediterranean climate with"
+						+ "summer temperatures often exceeding 40°C (104°F) and in the summer"
+						+ "months the Fremantle Doctor, a cooling sea breeze blows from 12pm"
+						+ "to 3pm, brings a welcome relief. Perth is the third windiest city"
+						+ "in the world making sailing and kite surfing extremely popular.");   // text ends here
+			}
+		});
